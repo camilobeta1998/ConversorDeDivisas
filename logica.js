@@ -14,7 +14,6 @@ function calcular() {
                 .then((response) => response.json())
                 .then((data) => {
                         let taza = data.conversion_rates[tipo_moneda_dos];
-                        console.log(taza);
                         cambioEl.innerText = ` ${
                                 cantidad_uno.value
                         } ${tipo_moneda_uno} = ${(

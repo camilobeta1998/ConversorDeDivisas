@@ -79,6 +79,12 @@ select:focus, input:focus, button:focus{
         }
 }
 
+
+@media only screen and (min-width: 481px) and (max-width: 960px){
+        .cambio{
+                width: 80px;
+        }
+}
 .cambio{
         color: var(--primary-color);
         display: flex;
@@ -86,5 +92,5 @@ select:focus, input:focus, button:focus{
         align-items: center;
         width: 50%;
         height: 30px;
-        font-size: 20px;
+        font-size: 16px;
 }
